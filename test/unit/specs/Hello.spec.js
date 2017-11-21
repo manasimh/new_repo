@@ -6,7 +6,7 @@ describe('HelloWorld.vue', () => {
     const Constructor = Vue.extend(HelloWorld)
     const vm = new Constructor({ 
       propsData: {
-        msg: 'Welcome to Vue.js'
+        msg: 'Welcome to Vue.js App'
       } 
     }).$mount()
     expect(vm.$el.querySelector('.hello h1').textContent)
