@@ -13,3 +13,5 @@ install:
   - npm install
 script:
   - npm run unit
+addons:
+  chrome: stable 
