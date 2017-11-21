@@ -8,6 +8,8 @@ node_js:
   - "0.11"
   - "0.10"
   - "iojs"
+before_install:
+  - echo "Testing My project"
 install:
   - npm install
 script:
