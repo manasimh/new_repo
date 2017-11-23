@@ -7,8 +7,7 @@
       <li><a href="/article"> Articles</a></li>
       <li><a href="/clicks"> Count Clicks</a></li>
     </ul>
-	  <HelloWorld msg = 'Welcome to Vue.js App' />
-   
+	  <HelloWorld msg = 'Welcome to Vue.js App' />   
     <router-view/>
   </div>
 </template>
