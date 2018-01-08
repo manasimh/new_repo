@@ -5,9 +5,9 @@
   "author": "",
   "private": true,
   "scripts": {
+    "dev": "node build/dev-server.js",
     "start": "npm run dev",
-    "build": "rimraf dist && cross-env NODE_ENV=production webpack",
-    "dev": "webpack --watch"
+    "build": "node build/build.js"
   },
   "dependencies": {
     "vue": "^2.5.2",
