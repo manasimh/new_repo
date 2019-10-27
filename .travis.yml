@@ -6,11 +6,8 @@ install:
   - npm install
 script:
   - npm run unit
-dist: trusty
 addons:
   chrome: stable
-before_install:
-- npm i -g npm@4.1
 cache:
   directories:
     - "node_modules"
